@@ -1,0 +1,17 @@
+{
+  "client_id": "https://proteos-ai.github.io/oauth-clients/proteos-mcp-client-stg.json",
+  "client_name": "Proteos (staging)",
+  "client_uri": "https://proteos.ai",
+  "redirect_uris": [
+    "https://api.stg.proteos.ai/agents/v1/mcp-servers/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email user:org:read offline_access"
+}
