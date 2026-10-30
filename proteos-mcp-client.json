@@ -3,7 +3,7 @@
   "client_name": "Proteos",
   "client_uri": "https://proteos.ai",
   "redirect_uris": [
-    "https://api.proteos.ai/agents/v1/mcp-servers/oauth/callback"
+    "https://api.proteos.ai/agents/v1/mcp-oauth/callback"
   ],
   "grant_types": [
     "authorization_code",

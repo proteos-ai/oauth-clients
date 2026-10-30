@@ -6,7 +6,7 @@ Some MCP authorization servers (for example Freckle's, on Clerk) do not offer dy
 
 | Environment | client_id | redirect URI |
 |---|---|---|
-| prod | `https://proteos-ai.github.io/oauth-clients/proteos-mcp-client.json` | `https://api.proteos.ai/agents/v1/mcp-servers/oauth/callback` |
-| staging | `https://proteos-ai.github.io/oauth-clients/proteos-mcp-client-stg.json` | `https://api.stg.proteos.ai/agents/v1/mcp-servers/oauth/callback` |
+| prod | `https://proteos-ai.github.io/oauth-clients/proteos-mcp-client.json` | `https://api.proteos.ai/agents/v1/mcp-oauth/callback` |
+| staging | `https://proteos-ai.github.io/oauth-clients/proteos-mcp-client-stg.json` | `https://api.stg.proteos.ai/agents/v1/mcp-oauth/callback` |
 
 Use the URL as `auth.oauth.client_id` with `registration_mode: "manual"` on the MCP server row. These are public clients (`token_endpoint_auth_method: none`, PKCE); the documents contain no secrets.
